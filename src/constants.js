@@ -1,65 +1,1154 @@
-export const data = [{
-    id: '1',
-    source: 'm',
-    cluster_english: 'Test',
-    cluster_deutsch: 'Alio.',
-    main_topics: [{
-            main_topic: 'Test1xx',
-            hauptthema: 'Alio.1',
-            sub_topics: [{
-                    sub_topic: 'Test',
-                    unterthema: 'Alio.',
-                },
-                {
+export const COLUMN_INDEX = {
+  stt: "A",
+  source: "B",
+  cluster_english: "C",
+  cluster_deutsch: "D",
+  main_topics_eng: "E",
+  main_topics_dustch: "F",
+  sub_topics_eng: "G",
+  sub_topics_dustch: "H",
+};
 
-                    sub_topic: 'Test',
-                    unterthema: 'Alio.',
-                }
-            ]
+export const data = [
+  {
+    created_date: 1676274077,
+    source: {
+      name: "VCCC",
+      id: "1",
+      image_url: "alo",
+    },
+    id: "a37a69cb-1fcf-46d7-b969-207514441601",
+    cluster_english: "Boot AI Testing 1",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "20",
+        main_topic: "Privacy",
+        id: "547047b8-8523-49d3-a870-e25385b8eade",
+        hauptthema: "Datenschutz",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: "cac",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "cac",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+          {
+            created_date: null,
+            unterthema: "cac",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "cac",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+        ],
+      },
+      {
+        created_date: null,
+        parent_id: "20",
+        main_topic: "Privacy",
+        id: "547047b8-8523-49d3-a870-e25385b8eade",
+        hauptthema: "Datenschutz",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: "cac",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "cac",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+          {
+            created_date: null,
+            unterthema: "cac",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "cac",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+          {
+            created_date: null,
+            unterthema: "cac",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "cac",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+        ],
+      },
+    ],
+    source_id: "1",
+    cluster_deutsch: "Boot AI Testing 1",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "20",
+    cluster_english: "GRC - Government",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "20",
+        main_topic: "Privacy",
+        id: "547047b8-8523-49d3-a870-e25385b8eade",
+        hauptthema: "Datenschutz",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: "asdasd",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "asfasfas",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+          {
+            created_date: null,
+            unterthema: "asfasfas",
+            parent_id: "547047b8-8523-49d3-a870-e25385b8eade",
+            sub_topic: "asdasfasf",
+            id: "7bc695bd-6887-495d-8a60-53384ffc6a5a",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "GRC",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "37",
+    cluster_english: "Applications",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "37",
+        main_topic: "Mobile Applications",
+        id: "347e0943-75f8-486c-a043-1c75baf86f93",
+        hauptthema: "Mobile Applications",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "347e0943-75f8-486c-a043-1c75baf86f93",
+            sub_topic: null,
+            id: "e4535cf9-5fc7-4b25-ab64-0bb8ed1b4d32",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Applikationen",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "19",
+    cluster_english: "Hardware",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "19",
+        main_topic: "Hardware",
+        id: "ff029805-5bb4-43c4-941a-0b1ecf313978",
+        hauptthema: "Hardware",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "ff029805-5bb4-43c4-941a-0b1ecf313978",
+            sub_topic: null,
+            id: "240399ac-c00e-4af0-9f38-7f5536410c1d",
+          },
+        ],
+      },
+      {
+        created_date: null,
+        parent_id: "37",
+        main_topic: "Mobile Applications",
+        id: "347e0943-75f8-486c-a043-1c75baf86f93",
+        hauptthema: "Mobile Applications",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "347e0943-75f8-486c-a043-1c75baf86f93",
+            sub_topic: null,
+            id: "e4535cf9-5fc7-4b25-ab64-0bb8ed1b4d32",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Hardware",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "35",
+    cluster_english: "Artifical Intelligence",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "35",
+        main_topic: "Artificial Intelligence",
+        id: "0656a02d-3a50-47a5-a1d2-0f81d78136b4",
+        hauptthema: "Künstliche Intelligenz",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "0656a02d-3a50-47a5-a1d2-0f81d78136b4",
+            sub_topic: null,
+            id: "f222bc9d-25fc-4506-ba12-1b7d2b3aff90",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Künstliche Intelligenz",
+  },
 
-        },
-        {
-            main_topic: 'Test2xx',
-            hauptthema: 'Alio.2',
-            sub_topics: [{
-
-                    sub_topic: 'Test',
-                    unterthema: 'Alio.',
-                },
-                {
-
-                    sub_topic: 'Test',
-                    unterthema: 'Alio.',
-                }
-            ]
-
-        }
-    ]
-}, {
-    id: '2',
-    source: 'm',
-    cluster_english: 'Test',
-    cluster_deutsch: 'Alio.',
-    main_topics: [{
-            main_topic: 'Test1xx',
-            hauptthema: 'Alio.1',
-            sub_topics: [{
-                    sub_topic: 'Test',
-                    unterthema: 'Alio.',
-                },
-                // {
-
-                //     sub_topic: 'Test',
-                //     unterthema: 'Alio.',
-                // }
-            ]
-
-        },
-        {
-            main_topic: 'Test2xx',
-            hauptthema: 'Alio.2',
-            sub_topics: []
-
-        }
-    ]
-}]
+  {
+    created_date: null,
+    source: null,
+    id: "33",
+    cluster_english: "Cloud",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "33",
+        main_topic: "Software As A Service",
+        id: "8d688e81-806c-40c6-8229-e23965d69e5c",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "8d688e81-806c-40c6-8229-e23965d69e5c",
+            sub_topic: null,
+            id: "bab2130a-3fc1-4aaf-833b-44319eca66a7",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Cloud",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "18",
+    cluster_english: "Human Ressources",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "18",
+        main_topic: "Talent",
+        id: "be0a4166-5473-4879-a54e-51c381d075fe",
+        hauptthema: "Talente",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "be0a4166-5473-4879-a54e-51c381d075fe",
+            sub_topic: null,
+            id: "09c3daff-d637-475e-bdea-7dd887fbfbe7",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Personal",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "32",
+    cluster_english: "Cloud",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "32",
+        main_topic: "Cloud",
+        id: "0753a1c4-978f-4040-a81f-e06994fdc4e3",
+        hauptthema: "Cloud",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "0753a1c4-978f-4040-a81f-e06994fdc4e3",
+            sub_topic: "Private Cloud",
+            id: "af2b2915-03e7-47c0-a65d-bb18a5564ba6",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Cloud",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "16",
+    cluster_english: "Information Security",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "16",
+        main_topic: "Information Security",
+        id: "41df7cb9-54ba-4e6f-80bc-f0ef42e11b77",
+        hauptthema: "Informationssicherheit",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: "IT Sicherheit",
+            parent_id: "41df7cb9-54ba-4e6f-80bc-f0ef42e11b77",
+            sub_topic: "IT Security",
+            id: "c66b7e1d-2164-4a52-af84-cb61143ebd45",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Informationssicherheit",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "14",
+    cluster_english: "IoT",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "14",
+        main_topic: "Smart Home Devices",
+        id: "a53325a5-65f1-4096-a3bb-4291d8b4c05e",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "a53325a5-65f1-4096-a3bb-4291d8b4c05e",
+            sub_topic: null,
+            id: "6bf28ffa-e2c4-43b4-920c-f8ec7f8bafb0",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "30",
+    cluster_english: "Countries",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "30",
+        main_topic: "United Kingdom",
+        id: "a4f093aa-b59b-4a8a-8239-f924b150036c",
+        hauptthema: "Grossbritanien",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "a4f093aa-b59b-4a8a-8239-f924b150036c",
+            sub_topic: null,
+            id: "b5ae9a2b-f2c4-4dcf-bd81-ebbad9e36599",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Länder",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "29",
+    cluster_english: "Countries",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "29",
+        main_topic: "Germany",
+        id: "e9d4fd69-07a0-426d-9a7a-5d8a65510fc3",
+        hauptthema: "Deutschland",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "e9d4fd69-07a0-426d-9a7a-5d8a65510fc3",
+            sub_topic: null,
+            id: "98210c32-71a1-4058-842d-e639a38b4088",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Länder",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "13",
+    cluster_english: "Merger & Aquisitions",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "13",
+        main_topic: "Acquisitions",
+        id: "34e5be3e-4b98-4638-8563-b22ed172ad79",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "34e5be3e-4b98-4638-8563-b22ed172ad79",
+            sub_topic: null,
+            id: "46a5c330-c7f8-4688-9f4d-f89aa7b651a5",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "5",
+    cluster_english: "Technology",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "5",
+        main_topic: "Smartphones",
+        id: "4db4b4a2-25fd-4a1c-b16a-9f75ca482611",
+        hauptthema: "Mobiltelefon",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "4db4b4a2-25fd-4a1c-b16a-9f75ca482611",
+            sub_topic: null,
+            id: "76645129-6115-4422-8668-c172de68b854",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Technologie",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "11",
+    cluster_english: "Region",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "11",
+        main_topic: "Berlin",
+        id: "9ef79f63-1bce-4f30-97d6-44794183f183",
+        hauptthema: "Berlin",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "9ef79f63-1bce-4f30-97d6-44794183f183",
+            sub_topic: null,
+            id: "887409de-327d-4d09-aef9-0afc64384b8b",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Region",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "28",
+    cluster_english: "Countries",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "28",
+        main_topic: "China",
+        id: "6e824e9b-9f97-4ff7-bffe-86b7ba9de56a",
+        hauptthema: "China",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "6e824e9b-9f97-4ff7-bffe-86b7ba9de56a",
+            sub_topic: null,
+            id: "e3ca455c-885c-4cef-bead-a2e322f90ab5",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Länder",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "1",
+    cluster_english: "Technology",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "1",
+        main_topic: "5G",
+        id: "2b4fe3f0-3147-413a-8a36-d2df67baccbc",
+        hauptthema: "5G",
+        sub_topics: [],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Technologie",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "26",
+    cluster_english: "Digitalisierung",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "26",
+        main_topic: "Digital Identity",
+        id: "fbf0577c-2a85-4297-8e3a-1b6ca0dfae92",
+        hauptthema: "Digitale Identität",
+        sub_topics: [],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Digitalization",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "42",
+    cluster_english: null,
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "42",
+        main_topic: "Software Platform",
+        id: "02cf6398-aad0-4a7f-b4dd-7b5f9a575087",
+        hauptthema: "Software Plattform",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "02cf6398-aad0-4a7f-b4dd-7b5f9a575087",
+            sub_topic: null,
+            id: "eb4ae1ff-39c5-48ce-b95e-7b9ed57af042",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Software",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "24",
+    cluster_english: "Government",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "24",
+        main_topic: "Government",
+        id: "ece13d35-9c2c-494a-a075-085de90a223e",
+        hauptthema: "Regierung",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "ece13d35-9c2c-494a-a075-085de90a223e",
+            sub_topic: null,
+            id: "a3026f1b-7954-4015-85a2-808ecd2a6b69",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "40",
+    cluster_english: null,
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "40",
+        main_topic: "Data",
+        id: "fd51914f-85f7-4155-8f58-f48c39f3f82b",
+        hauptthema: "Daten",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "fd51914f-85f7-4155-8f58-f48c39f3f82b",
+            sub_topic: null,
+            id: "0b023eba-11b2-4514-969a-73eb98c1920c",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Daten",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "23",
+    cluster_english: "GRC",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "23",
+        main_topic: "Risc",
+        id: "60b8c05b-3dd4-4611-a189-4a4273d1fa8e",
+        hauptthema: "Risikomanagement",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "60b8c05b-3dd4-4611-a189-4a4273d1fa8e",
+            sub_topic: null,
+            id: "1ea84f07-c377-40ea-b7ce-2bf629328eb1",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "39",
+    cluster_english: "Application Development",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "39",
+        main_topic: "Developer",
+        id: "dfe707a1-0600-49f9-a49f-464bb7b851f8",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: "Entwickler",
+            parent_id: "dfe707a1-0600-49f9-a49f-464bb7b851f8",
+            sub_topic: null,
+            id: "10e513d3-7881-425b-ad15-ac7c1dfd8c93",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Applikationsentwicklung",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "8",
+    cluster_english: "Smart Contracts",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "8",
+        main_topic: "Blockchains",
+        id: "515c7122-e74d-44ff-8c44-2933e7367774",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "515c7122-e74d-44ff-8c44-2933e7367774",
+            sub_topic: null,
+            id: "c1081716-db32-4512-9c3a-2468680ba8da",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "38",
+    cluster_english: "Application Development",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "38",
+        main_topic: "Application Development",
+        id: "f2d42a58-190c-4ef2-a847-74c7931eb5d5",
+        hauptthema: "Anwendungsentwicklung",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "f2d42a58-190c-4ef2-a847-74c7931eb5d5",
+            sub_topic: "No Code Software",
+            id: "e053960b-d1bf-42e5-bba8-7b97d12c4c07",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Applikationsentwicklung",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "21",
+    cluster_english: "GRC - Government",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "21",
+        main_topic: "Competition Regulation",
+        id: "f7daa41b-97b2-48b1-9e4a-e579dad48ad4",
+        hauptthema: "Wettbewerbsrecht",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "f7daa41b-97b2-48b1-9e4a-e579dad48ad4",
+            sub_topic: null,
+            id: "5e5416e1-81bb-4fd3-9e7a-e0a10bde22b4",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "2",
+    cluster_english: "Technology",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "2",
+        main_topic: "Android",
+        id: "2251590b-e408-4cc3-852d-4420b1c77c60",
+        hauptthema: "Android",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "2251590b-e408-4cc3-852d-4420b1c77c60",
+            sub_topic: null,
+            id: "a125b289-2d42-4774-bcc9-ed41f7ab47ce",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Technologie",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "36",
+    cluster_english: "Artifical Intelligence",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "36",
+        main_topic: "Machine Learning",
+        id: "751c3f47-b3bc-4e4d-9b9f-115f047f115c",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "751c3f47-b3bc-4e4d-9b9f-115f047f115c",
+            sub_topic: null,
+            id: "3ad08678-185a-450a-8cfe-1b28f01d8869",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Künstliche Intelligenz",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "34",
+    cluster_english: "Business",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "34",
+        main_topic: "Supply Chain Management",
+        id: "916dfb56-5d37-4457-8410-95aaaf427d90",
+        hauptthema: "Lieferketten",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "916dfb56-5d37-4457-8410-95aaaf427d90",
+            sub_topic: null,
+            id: "c072730b-98f7-4d6a-b847-0100f8256cd5",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Geschäft",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "17",
+    cluster_english: "Information Security",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "17",
+        main_topic: "Ransomware",
+        id: "c675d003-ca82-4e2e-b95c-2a43762d246f",
+        hauptthema: "Schadsoftware",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "c675d003-ca82-4e2e-b95c-2a43762d246f",
+            sub_topic: null,
+            id: "297f3be9-5afc-4693-bd07-badc56893722",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Informationssicherheit",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "31",
+    cluster_english: "Cloud",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "31",
+        main_topic: "Cloud",
+        id: "7e46ac00-8cbe-47b2-bf22-e7518b7aabcc",
+        hauptthema: "Cloud",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "7e46ac00-8cbe-47b2-bf22-e7518b7aabcc",
+            sub_topic: "Public Cloud",
+            id: "520bd1e4-c3d1-4185-8faf-942f37feef31",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Cloud",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "15",
+    cluster_english: "Internet of things",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "15",
+        main_topic: "Smart Home Devices",
+        id: "dbd8e331-35b1-47f0-854b-6545b8e8d86a",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "dbd8e331-35b1-47f0-854b-6545b8e8d86a",
+            sub_topic: null,
+            id: "1cac1284-4bfb-4fbf-8fc3-478960e8bba7",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "3",
+    cluster_english: "Technology",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "3",
+        main_topic: "Augmented Reality",
+        id: "2650a0c6-8f6b-43c3-9baf-258cb93132cb",
+        hauptthema: null,
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "2650a0c6-8f6b-43c3-9baf-258cb93132cb",
+            sub_topic: null,
+            id: "75508b90-1d2f-49b6-8e8a-24047c673677",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Technologie",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "12",
+    cluster_english: "Politics",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "12",
+        main_topic: "Politics",
+        id: "b27101c5-69a6-478f-ab37-990c028664eb",
+        hauptthema: "Politik",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "b27101c5-69a6-478f-ab37-990c028664eb",
+            sub_topic: null,
+            id: "b1cbc1af-2643-4490-aa09-9adb19f61c8f",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Politik",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "10",
+    cluster_english: "SDG",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "10",
+        main_topic: "Climate",
+        id: "3798d8c6-cb45-4a34-922f-81df7ceff567",
+        hauptthema: "Klima",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "3798d8c6-cb45-4a34-922f-81df7ceff567",
+            sub_topic: null,
+            id: "e78421e5-4d96-499f-b073-06438540ea9d",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Nachhaltigkeit",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "27",
+    cluster_english: "Countries",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "27",
+        main_topic: "Africa",
+        id: "e0e04df3-fbe9-4a9d-91b6-a5b33c54f232",
+        hauptthema: "Africa",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "e0e04df3-fbe9-4a9d-91b6-a5b33c54f232",
+            sub_topic: null,
+            id: "7dc9ea56-0fdd-45ed-8326-c43060312946",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Länder",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "25",
+    cluster_english: "Europäische Union",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "25",
+        main_topic: "European Union",
+        id: "ec451ffa-cfeb-432c-b07b-6b495ea471b8",
+        hauptthema: "Europäische Union",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "ec451ffa-cfeb-432c-b07b-6b495ea471b8",
+            sub_topic: null,
+            id: "2a6baf03-5872-469b-b9b2-14adbb1c29e6",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "European Union",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "41",
+    cluster_english: null,
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "41",
+        main_topic: "Mobile Software",
+        id: "94ec9a36-463b-42df-a231-3ce510133a98",
+        hauptthema: "Mobile Lösungen",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "94ec9a36-463b-42df-a231-3ce510133a98",
+            sub_topic: null,
+            id: "e7c35c04-285d-412a-a862-9f30342fd86a",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Software",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "9",
+    cluster_english: "Security",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "9",
+        main_topic: "Security",
+        id: "df85ae17-8bec-4dea-9345-ab9745089bd1",
+        hauptthema: "Sicherheit",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "df85ae17-8bec-4dea-9345-ab9745089bd1",
+            sub_topic: null,
+            id: "afdb9bc4-ad6d-4735-8bd6-77ed8df47453",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Sicherheit",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "4",
+    cluster_english: "Technology",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "4",
+        main_topic: "Robotics",
+        id: "2cca6afc-d428-437b-8d23-5edbfcfa19cf",
+        hauptthema: "Roboter",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "2cca6afc-d428-437b-8d23-5edbfcfa19cf",
+            sub_topic: null,
+            id: "f8772e71-54a1-4baf-b80d-1f49fe772f24",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Technologie",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "7",
+    cluster_english: "Software",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "7",
+        main_topic: "Software Engineer",
+        id: "b6e2d372-f012-4304-8410-89c55ff18a6f",
+        hauptthema: "Softwareentwickler",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "b6e2d372-f012-4304-8410-89c55ff18a6f",
+            sub_topic: null,
+            id: "f6268cbd-26d7-46f7-863d-98d1d9dbcfd4",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: "Software",
+  },
+  {
+    created_date: null,
+    source: null,
+    id: "22",
+    cluster_english: "GRC - Government",
+    main_topics: [
+      {
+        created_date: null,
+        parent_id: "22",
+        main_topic: "Fraud",
+        id: "e6dcd72c-3023-4a51-b1b7-103f9321f9ff",
+        hauptthema: "Betrug",
+        sub_topics: [
+          {
+            created_date: null,
+            unterthema: null,
+            parent_id: "e6dcd72c-3023-4a51-b1b7-103f9321f9ff",
+            sub_topic: null,
+            id: "007c11ec-8f3d-4bad-898b-408138b4632e",
+          },
+        ],
+      },
+    ],
+    source_id: null,
+    cluster_deutsch: null,
+  },
+];
